@@ -1,93 +1,151 @@
-<html>
-    <head>
-        <title>Contact Form Tutorial by Bootstrapious.com</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-        <link href='custom.css' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <div class="container">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
 
-            <div class="row">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-                <div class="col-lg-8 col-lg-offset-2">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/my-styles.css" crossorigin="anonymous">
 
-                    <h1>Contact form Tutorial from <a href="http://bootstrapious.com">Bootstrapious.com</a></h1>
+    <title>REVAMPLEDPORTFOLIO2018</title>
+</head>
+<body>
 
-                    <p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background.</p>
+<section id="navbar-section">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="site-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-navbar" aria-controls="site-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="site-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<div id="stage">
+    <div id="about-caption">
+        <h1 class="display-4 text-center">Say Hello!</h1>
+        <p class="text-center">Wanna talk design? <i>Drop me a line.</i></p>
+    </div>
+</div>
 
 
-                    <form id="contact-form" method="post" action="contact.php" role="form">
 
-                        <div class="messages"></div>
 
-                        <div class="controls">
 
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_name">Firstname *</label>
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_phone">Phone</label>
-                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_message">Message *</label>
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                    </form>
 
-                </div><!-- /.8 -->
 
-            </div> <!-- /.row-->
 
-        </div> <!-- /.container-->
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="validator.js"></script>
-        <script src="contact.js"></script>
-    </body>
+
+
+
+
+
+
+
+
+
+<section>
+    <div class="container">
+        <form id="contact-form" method="post" action="">
+            <div class="form-row">
+                <div class="form-group col-md-6 contact-col">
+                    <!--<label for="inputPassword4"></label>-->
+                    <input type="name" class="form-control" id="name-input" placeholder="Name*" required>
+                </div>
+                <div class="form-group col-md-6 contact-col">
+                    <!--<label for="inputEmail4"></label>-->
+                    <input type="email" class="form-control" id="email-input" placeholder="Email Address*" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6 contact-col">
+                    <!--<label for="inputPassword4"></label>-->
+                    <input type="text" class="form-control" id="phone-input" placeholder="Phone Number">
+                </div>
+                <div class="form-group col-md-6 contact-col">
+                    <!--<label for="inputEmail4"></label>-->
+                    <input type="text" class="form-control" id="website-input" placeholder="Website">
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Message*" required></textarea>
+            </div>
+            <button id="send-message-button" type="submit" class="btn btn-outline-secondary">Send Message</button>
+        </form>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="psedo-section">
+
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm">
+                <!--<a href="tel:407-907-9712" target="_blank" data-toggle="tooltip" title="407-907-9712"><img src="phone.png" class="img-fluid footer-icon" alt="Responsive image"></a>-->
+                <!--<a href="mailto:nbdelpino1@yahoo.com.com?Subject=Nick's%20Portfolio" target="_top" data-toggle="tooltip" title="nbdelpino1@yahoo.com"><img src="email.png" class="img-fluid footer-icon" alt="Responsive image"></a>-->
+                <!--<a href="https://github.com/NBDelpino1" target="_blank"><img src="github.png" class="img-fluid footer-icon" alt="Responsive image"></a>-->
+                <!--<a href="https://www.linkedin.com/in/nicholas-delpino-ux-ui/" target="_blank"><img src="linkedin.png" class="img-fluid footer-icon" alt="Responsive image"></a>-->
+                <a href="#"><i class="fas fa-phone footer-icon"></i></a>
+                <a href="#"><i class="fas fa-envelope footer-icon"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in footer-icon"></i></a>
+                <a href="#"><i class="fab fa-github-alt footer-icon"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
