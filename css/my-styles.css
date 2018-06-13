@@ -1,0 +1,176 @@
+html, body {
+    height:100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: #565656;
+    letter-spacing:.2rem;
+}
+
+h1,h2,h3,h5 {
+    color: #333;
+}
+
+.btn-outline-secondary {
+    width:295px;
+    height:50px;
+    border: 2px solid #394C84;
+    border-radius:0;
+    color: #394C84;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #DBE3F7;
+    border: 2px solid #DBE3F7;
+}
+
+
+#stage {
+    /*background-color: #d7cec7;*/
+    /*background-color: #213262;*/
+    /*background-color: #333a56;*/
+    /*color: #DBE3F7;*/
+    /*background-image: url('../bg.png');*/
+    /*background-size:cover;*/
+    color: #232020;
+    height:400px;
+    width:100%;
+    display: flex;
+    align-items:center;
+    /*margin-bottom:6rem;*/
+}
+
+#stage-caption {
+    font-size:1.4rem;
+    font-weight:200;
+    max-width:25rem;
+    margin: 0 auto;
+}
+
+#stage-caption h1 {
+    /*color: #DBE3F7;*/
+    color: #232020;
+}
+
+#stage-button-div {
+    padding:1rem;
+}
+
+.col-sm-6 {
+    padding:1rem;
+}
+
+#navbar-section {
+    /*background-color: #213262;*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /*color: #DBE3F7;*/
+    color: darkslategrey;
+    font-size:.75rem;
+    letter-spacing:.25rem;
+}
+
+
+#footer {
+    /*background-color: #f0f0f0;*/
+    padding:2rem;
+    /*margin-top:3rem;*/
+}
+.footer-icon {
+    padding:1rem;
+    color: #D0D0D2;
+    font-size:30px;
+}
+
+/*.test {*/
+    /*font-size:2.4rem;*/
+    /*color: #DBE3F7;*/
+    /*margin-top:3rem;*/
+    /*margin-bottom:3rem;*/
+/*}*/
+
+.bold-text {
+    font-weight:700;
+    margin-bottom:3rem;
+    color: #232020;
+    letter-spacing:.2rem;
+}
+
+
+.pre-footer {
+    margin-top:3rem;
+    min-height:300px;
+    background-color: #f0f0f0;
+    padding:6rem;
+}
+
+
+#about-caption {
+    font-size:1.4rem;
+    font-weight:200;
+    max-width:50rem;
+    margin: 0 auto;
+}
+
+
+
+.float-left {
+    float: left;
+    margin-right:20px;
+}
+
+
+.form-control {
+    height:4rem;
+    margin:0;
+    border-radius:0px;
+    background-color: #f0f0f0;
+    border:0;
+}
+
+.contact-col {
+    margin-bottom:.75rem;
+}
+textarea {
+    min-height:300px !important;
+}
+
+#send-message-button {
+    height:4rem;
+}
+
+
+#send-message-button, .see-project {
+    width:295px;
+    height:4rem;
+    border: 2px solid #272b2f;
+    border-radius:0;
+    color: #fff;
+    background-color: #272b2f;
+}
+
+#send-message-button:hover, .see-project:hover {
+    background-color: #fff;
+    border: 2px solid #272b2f;
+    color: #272b2f;
+}
+
+
+h2 {
+    color: #272b2f;
+    padding:3rem 0 3rem 0;
+}
+.psedo-section {
+    height:3rem;
+}
+
+.project-button-div {
+    margin-top:3rem;
+}
+
+.display-image {
+    margin-bottom:2rem;
+}
