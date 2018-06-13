@@ -150,7 +150,7 @@
                 <?php echo "<p class='text-danger'>$errMessage</p>";?>
             </div>
             <!--  SUBMIT BUTTON  -->
-            <input id="submit" name="submit" type="submit" value="SEND YOUR MESSAGE" class="btn btn-outline-secondary">Send Message</input>
+            <input id="submit" name="submit" type="submit" value="Send Message" class="btn btn-outline-secondary"></input>
             <?php echo $result;?>
         </form>
     </div>
