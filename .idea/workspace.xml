@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d296c38a-de20-45e2-b493-632d74aa4d83" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/.idea/contact-form-bootstrap.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/form.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/formpage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/handler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/readme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/src/FormHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/src/ReCaptchaValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/src/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/src/FieldValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/src/FieldValidatorCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/src/FormValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/src/ValidatorMap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/src/Validators.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/FormGuide/PHPFormValidator/src/ValidatorsList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/autoload_classmap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/autoload_namespaces.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/autoload_psr4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/autoload_real.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/autoload_static.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/composer/installed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/CaptchaBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/CaptchaBuilderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/Font/captcha0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/Font/captcha1.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/Font/captcha2.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/Font/captcha3.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/Font/captcha4.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/Font/captcha5.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/ImageFileHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/PhraseBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/PhraseBuilderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/demo/demo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/demo/fingerprint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/demo/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/demo/ocr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/gregwar/captcha/demo/output.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/PHPMailerAutoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/class.phpmailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/class.phpmaileroauth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/class.phpmaileroauthgoogle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/class.pop3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/class.smtp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/extras/EasyPeasyICS.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/extras/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/extras/htmlfilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/extras/ntlm_sasl_client.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form-bootstrap/vendor/phpmailer/phpmailer/get_oauth_token.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,11 +17,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="595">
+              <caret line="193" column="14" lean-forward="false" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_me.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/contact_me.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1525365284000" expanded="true" signature="1390:1397" ph="×" />
+                <marker date="1525365284000" expanded="true" signature="1945:1952" ph="×" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_me.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mail/contact_me.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -161,10 +112,10 @@
       <list>
         <option value="$PROJECT_DIR$/send_form_email.php" />
         <option value="$PROJECT_DIR$/js/contact.js" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/contact.html" />
       </list>
     </option>
   </component>
@@ -216,6 +167,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mail" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -235,6 +200,10 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -301,12 +270,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528859234194</updated>
-      <workItem from="1528859235639" duration="3082000" />
+      <workItem from="1528859235639" duration="3363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3082000" />
+    <option name="totallyTimeSpent" value="3363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -371,14 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -391,6 +352,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1525365284000" expanded="true" signature="1390:1397" ph="×" />
+            <marker date="1525365284000" expanded="true" signature="1945:1952" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail/contact_me.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="193" column="14" lean-forward="false" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
           <folding />
         </state>
       </provider>
